@@ -1,17 +1,19 @@
-import React from 'react';
-import './App.css';
-import Header from './components/header'
+import React from "react";
+import "./App.css";
+import Header from "./components/header";
+import Sidebar from "./components/sidebar";
+import Feed from './components/feed'
 
 function App() {
   return (
     <div className="app">
-
-    {/* Header */}
-    <Header/>
-    {/* App Body */}
-      {/* Sidebar */}
-      {/* Feed */}
-      {/* Widgets */}
+      <Header />
+      {/* App Body */}
+      <div className="app_body">
+        <Sidebar />
+        <Feed /> 
+        {/* Widgets */}
+      </div>
     </div>
   );
 }
