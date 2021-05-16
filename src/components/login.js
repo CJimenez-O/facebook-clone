@@ -4,7 +4,7 @@ import {auth, provider} from '../firebase.js'
 import {useStateValue} from '../stateProvider'
 import {actionTypes} from '../reducer'
 
-function login() {
+function Login() {
 
   const[state, dispatch] = useStateValue()
 
@@ -29,4 +29,4 @@ function login() {
   );
 }
 
-export default login;
+export default Login;
