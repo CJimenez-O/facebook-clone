@@ -16,9 +16,9 @@ function storyReel() {
         title="Steve Woz"
       />
       <Story
-        image="https://www.gannett-cdn.com/presto/2018/08/30/USAT/a54e0f72-ba0b-4bcc-ace5-fa11ee684ec3-AP_Trillion_Dollar_Apple.jpg"
-        profile="https://www.washingtonian.com/wp-content/uploads/2015/09/stevejobs1.jpg"
-        title="Steve Jobs"
+        image="https://www.livemint.com/rf/Image-621x414/LiveMint/Period1/2015/03/10/Photos/timcookapple-kF3F--621x414@LiveMint.jpg"
+        profile="https://images.barrons.com/im-225735?width=1280&size=1"
+        title="Tim Cook"
       />
       <Story
         image="https://www.financemagnates.com/wp-content/uploads/2021/03/DogeCoin-header-min.jpg"
@@ -26,7 +26,7 @@ function storyReel() {
         title="Elon Musk"
       />
       <Story
-        image="https://www.runtimeasia.com/wp-content/uploads/2020/06/windows10-bsod.jpg"
+        image="https://learnodo-newtonic.com/wp-content/uploads/2018/10/Bill-Gates-on-Fortune-magazine-cover-July-21-1986.jpg"
         profile="https://i.pinimg.com/originals/4d/b6/f3/4db6f3360f7cc92a74da20c88f026a1f.jpg"
         title="Bill Gates"
       />

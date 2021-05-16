@@ -18,7 +18,7 @@ function Header() {
       <div className="header_left">
         <img
           alt="logo"
-          src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"
+          src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-clipart-flat-facebook-logo-png-icon-circle-22.png"
         ></img>
         <div className="header_input">
           <SearchIcon />

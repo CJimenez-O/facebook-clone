@@ -1,8 +1,6 @@
 import React from 'react';
 import SidebarRow from '../components/sidebarRow'
 import '../styles/sidebar.css';
-import HomeIcon from "@material-ui/icons/Home";
-import FlagIcon from "@material-ui/icons/Flag";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import GroupIcon from '@material-ui/icons/Group';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
