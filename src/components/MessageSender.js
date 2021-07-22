@@ -18,7 +18,7 @@ function MessageSender() {
       db.collection('posts').add({
         message: input,
         timeStamp: firebase.firestore.FieldValue.serverTimestamp(),
-        profilePic: user.photoURL,
+        profilePic: 'https://qph.fs.quoracdn.net/main-qimg-20df28f3b31895e56cba6dbc0515c635',
         username: user.displayName,
         image: imageUrl
       })
@@ -29,7 +29,7 @@ function MessageSender() {
   return (
     <div className="messageSender">
       <div className="messageSender_top">
-        <Avatar src={user.photoURL} />
+        <Avatar src='https://qph.fs.quoracdn.net/main-qimg-20df28f3b31895e56cba6dbc0515c635' />
         <form>
          {/* grabs input and set it as state input value */}
           <input
@@ -38,7 +38,7 @@ function MessageSender() {
             placeholder={`What's on you mind?`}
             type="text"
           />
-          <input value={imageUrl}  onChange={e => setInput(e.target.value)} placeholder={"image URL (Optional)"} type="text" />
+          <input value='https://qph.fs.quoracdn.net/main-qimg-20df28f3b31895e56cba6dbc0515c635'  onChange={e => setInput(e.target.value)} placeholder={"image URL (Optional)"} type="text" />
           <button type="submit" onClick={handleSubmit}>
             {" "}
             Hidden Submit

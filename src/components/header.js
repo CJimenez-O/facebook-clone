@@ -12,6 +12,7 @@ import ForumIcon from "@material-ui/icons/Forum";
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import {useStateValue} from '../stateProvider'
+import userEvent from "@testing-library/user-event";
 
 function Header() {
 
@@ -50,8 +51,8 @@ function Header() {
 
       <div className="header_right">
         <div className="header_info">
-          <Avatar src={user.photoURL} />
-          <h4>{user.displayName}</h4>
+          <Avatar src='https://qph.fs.quoracdn.net/main-qimg-20df28f3b31895e56cba6dbc0515c635' />
+          <h4>Chris Jimenez</h4>
         </div>
 
         <IconButton>

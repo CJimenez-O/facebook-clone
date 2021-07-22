@@ -13,7 +13,7 @@ function Sidebar() {
     const [{user, dispatch} ] = useStateValue();
   return (
     <div className="sidebar">
-      <SidebarRow src={user.photoURL} title={user.displayName} />
+      <SidebarRow src='https://qph.fs.quoracdn.net/main-qimg-20df28f3b31895e56cba6dbc0515c635'  title='Chris Jimenez' />
       <SidebarRow Icon={MenuBookIcon} title="Pages" />
       <SidebarRow Icon={GroupIcon} title="Friends" />
       <SidebarRow Icon={ChatIcon} title="Messenger" />

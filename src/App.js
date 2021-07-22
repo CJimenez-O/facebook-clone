@@ -11,9 +11,7 @@ function App() {
   const [{user, dispatch}] = useStateValue();
   return (
     <div className="app">
-      {!user ? (
-        <Login />
-      ) : (
+     
         <div>
           <Header />
           <div className="app_body">
@@ -22,7 +20,6 @@ function App() {
             <Widget />
           </div>
         </div>
-      )}
     </div>
   );
 }
