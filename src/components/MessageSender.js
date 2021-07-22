@@ -9,7 +9,7 @@ import db from '../firebase'
 import firebase from 'firebase'
 
 function MessageSender() {
-  const [{user}] = useStateValue();
+  const [{user}, dispatch] = useStateValue();
     const [input, setInput] = useState('');
     const [imageUrl, setImageUrl] = useState('');
 
@@ -19,7 +19,7 @@ function MessageSender() {
         message: input,
         timeStamp: firebase.firestore.FieldValue.serverTimestamp(),
         profilePic: 'https://qph.fs.quoracdn.net/main-qimg-20df28f3b31895e56cba6dbc0515c635',
-        username: user.displayName,
+        username: 'chris jimenez',
         image: imageUrl
       })
 
@@ -38,7 +38,7 @@ function MessageSender() {
             placeholder={`What's on you mind?`}
             type="text"
           />
-          <input value='https://qph.fs.quoracdn.net/main-qimg-20df28f3b31895e56cba6dbc0515c635'  onChange={e => setInput(e.target.value)} placeholder={"image URL (Optional)"} type="text" />
+          <input value=''  onChange={e => setInput(e.target.value)} placeholder={"image URL (Optional)"} type="text" />
           <button type="submit" onClick={handleSubmit}>
             {" "}
             Hidden Submit
