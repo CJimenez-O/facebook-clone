@@ -10,7 +10,7 @@ import MenuBookIcon from "@material-ui/icons/MenuBook";
 import { useStateValue } from "../stateProvider";
 
 function Sidebar() {
-    const [{user} ] = useStateValue();
+    const [{user, dispatch} ] = useStateValue();
   return (
     <div className="sidebar">
       <SidebarRow src={user.photoURL} title={user.displayName} />
