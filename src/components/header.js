@@ -12,11 +12,10 @@ import ForumIcon from "@material-ui/icons/Forum";
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import {useStateValue} from '../stateProvider'
-import userEvent from "@testing-library/user-event";
 
 function Header() {
 
-  const [{user}, dispatch] = useStateValue();
+  const [{user}] = useStateValue();
   return (
     <div className="header">
       <div className="header_left">

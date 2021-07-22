@@ -5,6 +5,7 @@ function Widgets() {
   return (
     <div className="widgets">
       <iframe
+      title='facebook'
         src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fapple%2Fposts%2F3750647745027803&show_text=true&width=500"
         width="300"
         height="100%"

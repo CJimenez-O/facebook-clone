@@ -7,11 +7,10 @@ import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import StorefrontIcon from "@material-ui/icons/Storefront";
 import ChatIcon from "@material-ui/icons/Chat";
 import MenuBookIcon from "@material-ui/icons/MenuBook";
-import { Avatar } from "@material-ui/core";
 import { useStateValue } from "../stateProvider";
 
 function Sidebar() {
-    const [{user} , dispatch] = useStateValue();
+    const [{user} ] = useStateValue();
   return (
     <div className="sidebar">
       <SidebarRow src={user.photoURL} title={user.displayName} />

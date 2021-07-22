@@ -6,7 +6,7 @@ import {actionTypes} from '../reducer'
 
 function Login() {
 
-  const[state, dispatch] = useStateValue()
+  const[ dispatch] = useStateValue()
 
     const signIn = () => {
         auth.signInWithPopup(provider)
@@ -20,7 +20,7 @@ function Login() {
   return (
     <div className="login">
       <div className="login_logo">
-        <img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-clipart-flat-facebook-logo-png-icon-circle-22.png"></img>
+        <img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-clipart-flat-facebook-logo-png-icon-circle-22.png" alt=''></img>
         <button className='login_btn' type="submit" onClick={signIn}>
           Sign In
         </button>
