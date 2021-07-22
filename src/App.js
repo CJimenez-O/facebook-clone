@@ -1,17 +1,14 @@
 import React from "react";
-import {useStateValue} from './stateProvider'
 import "./App.css";
 import Header from "./components/header";
 import Sidebar from "./components/sidebar";
 import Feed from "./components/feed";
 import Widget from "./components/widgets";
-import Login from './components/login.js'
 
 function App() {
-  const [{user, dispatch}] = useStateValue();
+  // const [{user, dispatch}] = useStateValue();
   return (
     <div className="app">
-     
         <div>
           <Header />
           <div className="app_body">

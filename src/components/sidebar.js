@@ -7,10 +7,9 @@ import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import StorefrontIcon from "@material-ui/icons/Storefront";
 import ChatIcon from "@material-ui/icons/Chat";
 import MenuBookIcon from "@material-ui/icons/MenuBook";
-import { useStateValue } from "../stateProvider";
 
 function Sidebar() {
-    const [{user, dispatch} ] = useStateValue();
+    // const [{user, dispatch} ] = useStateValue();
   return (
     <div className="sidebar">
       <SidebarRow src='https://qph.fs.quoracdn.net/main-qimg-20df28f3b31895e56cba6dbc0515c635'  title='Chris Jimenez' />

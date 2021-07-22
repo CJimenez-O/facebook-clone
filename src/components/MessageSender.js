@@ -1,4 +1,4 @@
-import React, { useEffect,  useState }  from "react";
+import React, {   useState }  from "react";
 import "../styles/messageSender.css";
 import { Avatar } from "@material-ui/core";
 import VideocamIcon from '@material-ui/icons/Videocam';
@@ -9,7 +9,7 @@ import db from '../firebase'
 import firebase from 'firebase'
 
 function MessageSender() {
-  const [{user} , dispatch] = useStateValue();
+  const [{user}] = useStateValue();
     const [input, setInput] = useState('');
     const [imageUrl, setImageUrl] = useState('');
 
