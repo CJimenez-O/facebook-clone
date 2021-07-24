@@ -39,10 +39,10 @@ function Header() {
         <div className="header_option">
           <StorefrontOutlinedIcon fontSize="large" />
         </div>
-        <div className="header_option">
+        <div className="header_option lock">
           <SupervisedUserCircleIcon fontSize="large" />
         </div>
-        <div className="header_option">
+        <div className="header_option lock">
           <FlagIcon fontSize="large" />
         </div>
       </div>

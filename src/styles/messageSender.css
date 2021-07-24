@@ -8,7 +8,6 @@
 }
 
 .messageSender_top{
-    display: flex;
     border-bottom: 1px solid #eff2f5;
     padding: 15px;
 }
@@ -60,3 +59,23 @@
     display: flex;
 }
 
+@media(max-width: 490px){
+    .feelings{
+        display: none;
+    }
+}
+
+@media(max-width: 790px){
+    .MessageSender_option{
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .messageSender_top img{
+        display: none;
+    }
+    .messageSender_top > form{
+        flex: unset;
+        display: block;
+    }
+}

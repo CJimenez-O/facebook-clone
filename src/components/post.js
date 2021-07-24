@@ -30,7 +30,7 @@ function Post({ profilePic, image, username, timestamp, message }) {
       </div>
 
       <div className="post_options">
-        <div className="post_option">
+        <div className="post_option po">
           <ThumbUpIcon />
           <p>Like</p>
         </div>
@@ -38,11 +38,11 @@ function Post({ profilePic, image, username, timestamp, message }) {
           <ChatBubbleIcon />
           <p>Comment</p>
         </div>
-        <div className="post_option">
+        <div className="post_option lock">
           <NearMeIcon />
           <p>Share</p>
         </div>
-        <div className="post_option">
+        <div className="post_option lock">
           <AccountCircleIcon />
           <ExpandMoreIcon />
         </div>

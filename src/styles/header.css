@@ -94,6 +94,10 @@
     .header_right{
         display: none;
     }
+
+    .lock{
+        display: none;
+    }
     
 }
 

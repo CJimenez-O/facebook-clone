@@ -36,7 +36,7 @@ function MessageSender() {
             placeholder={`What's on you mind?`}
             type="text"
           />
-          <input value=''  onChange={e => setInput(e.target.value)} placeholder={"image URL (Optional)"} type="text" />
+          <input className='lock' value=''  onChange={e => setInput(e.target.value)} placeholder={"image URL (Optional)"} type="text" />
           <button type="submit" onClick={handleSubmit}>
             {" "}
             Hidden Submit
@@ -46,15 +46,15 @@ function MessageSender() {
       <div className="messageSender_bottom">
         <div className="MessageSender_option">
             <VideocamIcon style={{color:'red'}} />
-            <h3>Live Video</h3>
+            <h3>Live </h3>
         </div>
         <div className="MessageSender_option">
             <PhotoLibraryIcon style={{color:'green'}} />
-            <h3>Photo/Video</h3>
+            <h3>Photo</h3>
         </div>
-        <div className="MessageSender_option">
+        <div className="MessageSender_option feelings">
             <InsertEmoticonIcon style={{color:'red'}} />
-            <h3>Feeling/Activity</h3>
+            <h3>Feeling</h3>
         </div>
       </div>
     </div>

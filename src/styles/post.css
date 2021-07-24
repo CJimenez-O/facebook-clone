@@ -1,5 +1,5 @@
 .post{
-    width: 100%;
+    width: 80%;
     margin-top: 15px;
     border-radius: 15px;
     background-color: white;
@@ -63,4 +63,17 @@
 .post_option:hover{
     background-color: #eff2f5;
     border-radius: 10px;
+}
+
+@media(max-width: 690px){
+    .MuiSvgIcon-root{
+        display: none;
+    }
+    .MuiSvgIcon-root p{
+        display: none;
+    }
+
+    .lock{
+        display: none;
+    }
 }
