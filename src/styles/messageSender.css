@@ -7,6 +7,10 @@
     box-shadow: 0px 5px -7px rgba(0,0,0,0.7);
 }
 
+.messageSender_top img{
+    display: none;
+}
+
 .messageSender_top{
     border-bottom: 1px solid #eff2f5;
     padding: 15px;
@@ -71,9 +75,7 @@
         margin: 5px;
     }
 
-    .messageSender_top img{
-        display: none;
-    }
+    
     .messageSender_top > form{
         flex: unset;
         display: block;
