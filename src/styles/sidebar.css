@@ -2,3 +2,9 @@
     padding: 15px;
     flex: 0.33;
 }
+
+@media(max-width: 1090px ){
+    .sidebar{
+        display: none;
+    }
+}

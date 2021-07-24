@@ -28,3 +28,10 @@
     left: 20px;
     color: white;
 }
+
+@media(max-width: 990px){
+    .story{
+        height: unset;
+        width: unset;
+    }
+}

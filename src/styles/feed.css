@@ -6,3 +6,10 @@
     justify-content: center;
     align-items: center;
 }
+
+@media(max-width: 890px){
+    .feed{
+        padding: 30px 10px;
+    }
+    
+}

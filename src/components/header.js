@@ -53,18 +53,20 @@ function Header() {
           <h4>Chris Jimenez</h4>
         </div>
 
-        <IconButton>
+        <div className="icon">
+        <IconButton className="icon">
           <AddIcon />
         </IconButton>
-        <IconButton>
-          <ForumIcon />
+        <IconButton className="icon">
+          <ForumIcon  />
         </IconButton>
-        <IconButton>
+        <IconButton className="icon">
           <NotificationsActiveIcon />
         </IconButton>
-        <IconButton>
+        <IconButton className="icon">
           <ExpandMoreIcon />
         </IconButton>
+        </div>
       </div>
     </div>
   );
